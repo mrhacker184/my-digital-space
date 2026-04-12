@@ -24,7 +24,7 @@ const Navbar = () => {
       }`}
     >
       <span className="font-extrabold text-lg text-primary tracking-tight">
-        Abraham M.
+        Abraham K.
       </span>
       <ul className="hidden md:flex gap-7 list-none">
         {links.map((l) => (
