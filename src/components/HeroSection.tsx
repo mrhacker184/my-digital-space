@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import abrahamPhoto from "@/assets/abraham-photo.jpeg";
 
 const roles = ["CS Student", "Cybersecurity Enthusiast", "Future IT Professional", "Tech Explorer"];
 
