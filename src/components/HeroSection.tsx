@@ -44,11 +44,11 @@ const HeroSection = () => {
       >
         {/* Photo */}
         <div className="w-36 h-36 rounded-full mx-auto mb-6 border-4 border-primary-foreground/30 overflow-hidden shadow-lg animate-pulse-ring">
-          <img src={abrahamPhoto} alt="Abraham M." className="w-full h-full object-cover object-top" />
+          <img src={abrahamPhoto} alt="Abraham K." className="w-full h-full object-cover object-top" />
         </div>
 
         <h1 className="text-4xl md:text-5xl font-extrabold text-primary-foreground mb-3 tracking-tight">
-          Abraham M.
+          Abraham K.
         </h1>
 
         <p className="text-lg md:text-xl text-primary-foreground/80 mb-2 min-h-[1.5em]">
