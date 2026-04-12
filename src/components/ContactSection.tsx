@@ -14,13 +14,13 @@ const ContactSection = () => (
         Open to entry-level IT and cybersecurity opportunities in Zambia.
       </p>
       <div className="flex gap-4 justify-center flex-wrap">
-        <a href="mailto:abraham@email.com" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
+        <a href="mailto:abrahamkasese92@gmail.com" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
           ✉️ Email Me
         </a>
-        <a href="#" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
+        <a href="https://zm.linkedin.com/in/abraham-kasese-403708351" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
           💼 LinkedIn
         </a>
-        <a href="#" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
+        <a href="https://github.com/mrhacker184" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
           🐙 GitHub
         </a>
       </div>
