@@ -109,4 +109,56 @@
     background: hsla(var(--background) / 0.85);
     backdrop-filter: blur(12px);
   }
+
+  /* Tech circuit board background pattern */
+  .tech-bg {
+    position: relative;
+  }
+  .tech-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.04;
+    pointer-events: none;
+    background-image:
+      /* Circuit lines */
+      linear-gradient(0deg, hsl(var(--primary)) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px),
+      /* Dots at intersections */
+      radial-gradient(circle 2px at center, hsl(var(--primary)) 1px, transparent 1px);
+    background-size:
+      80px 80px,
+      80px 80px,
+      80px 80px;
+    background-position: center center;
+  }
+  .tech-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    pointer-events: none;
+    background-image:
+      /* Diagonal traces */
+      linear-gradient(45deg, hsl(var(--primary)) 1px, transparent 1px),
+      linear-gradient(-45deg, hsl(var(--primary)) 1px, transparent 1px);
+    background-size: 120px 120px;
+  }
+
+  /* Floating binary/hex overlay */
+  @keyframes float-up {
+    0% { transform: translateY(100%) rotate(0deg); opacity: 0; }
+    10% { opacity: 0.06; }
+    90% { opacity: 0.06; }
+    100% { transform: translateY(-100%) rotate(5deg); opacity: 0; }
+  }
+
+  .animate-pulse-ring {
+    animation: pulse-ring 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-ring {
+    0%, 100% { box-shadow: 0 0 0 0 hsla(var(--primary) / 0.4); }
+    50% { box-shadow: 0 0 0 12px hsla(var(--primary) / 0); }
+  }
 }
