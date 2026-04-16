@@ -14,6 +14,12 @@ const ContactSection = () => (
         Open to entry-level IT and cybersecurity opportunities in Zambia.
       </p>
       <div className="flex gap-4 justify-center flex-wrap">
+        <a href="tel:+260776336399" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
+          📞 Call Me
+        </a>
+        <a href="https://wa.me/260776336399" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
+          💬 WhatsApp
+        </a>
         <a href="mailto:abrahamkasese92@gmail.com" className="px-6 py-3 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground font-semibold text-sm hover:bg-primary-foreground/20 transition-all">
           ✉️ Email Me
         </a>
